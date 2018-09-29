@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#9e0202"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainScrollviewLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#660202"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:background="#000"
+            android:text="Other"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            android:layout_below="@+id/mainScrollviewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:background="#e4e1e1"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="#9e0202"
+                android:id="@+id/otherLinearLayout"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:background="#aeabab"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="ABCFSGSHGASHG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
