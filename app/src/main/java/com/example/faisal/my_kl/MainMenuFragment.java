@@ -10,12 +10,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
+
 /**
  * Created by Faisal on 26-08-2018.
  */
 
 public class MainMenuFragment extends Fragment {
     Context context;
+
 
     @Override
     public void onAttach(Activity activity) {
@@ -31,4 +34,8 @@ public class MainMenuFragment extends Fragment {
 
         return view;
     }
+class Test extends ArrayList{
+
+}
+
 }
